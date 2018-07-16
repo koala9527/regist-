@@ -23,7 +23,7 @@ Call Plugin.Web.HtmlInput(Cstr(i)+email, "id:id_email")//获取邮箱输入框�
 
 Call Plugin.Web.HtmlInput(name+Cstr(i), "id:id_password")//获取密码输入框，填入数据
 
-Call Plugin.Web.HtmlInput(name + Cstr(i), "id:id_password_again")//获取用户名输入框，填入数据
+Call Plugin.Web.HtmlInput(name + Cstr(i), "id:id_password_again")//获取重复密码输入框，填入数据
 
 Call Plugin.Web.HtmlClick("tag:INPUT&value:注册") //获取注册按钮，点击
 
